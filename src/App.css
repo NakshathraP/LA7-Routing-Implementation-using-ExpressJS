@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+body {
+  background-color: #c2d9f3;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #bb95d1;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #b177d3;
+  transition: 0.4s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  background-color: #ffc8dd;
+  margin-top: 15px;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+li button {
+  background-color: #AFAFDC;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li button:hover{
+  background-color: #7676bb;
+  transition: 0.4s;
+}
